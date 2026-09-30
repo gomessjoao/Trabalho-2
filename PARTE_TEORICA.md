@@ -1,6 +1,9 @@
 # Trabalho Acadêmico: Desafio de Automação Digital
 ## Gestão de Peças, Controle de Qualidade e Armazenamento
 
+**Aluno:** João Pedro Gomes da Silva
+**Matrícula:** 284437
+
 **Disciplina:** Algoritmos e Lógica de Programação  
 **Instituição:** Centro Universitário UniFECAF  
 
@@ -25,9 +28,9 @@ Para transformar o problema de negócio em uma solução de software coesa e man
 
 ### 2.1. Tomada de Decisão e Condicionais (`if`, `elif`, `else`)
 A tomada de decisão é o núcleo do módulo de inspeção. Uma peça só pode ser considerada aprovada se satisfizer **concomitantemente** às três regras de engenharia:
-1. **Massa/Peso:** $95.0\text{g} \le \text{peso} \le 105.0\text{g}$;
-2. **Cor:** Pertencente ao conjunto restrito de aprovação $\{\text{"azul"}, \text{"verde"}\}$;
-3. **Comprimento:** $10.0\text{cm} \le \text{comprimento} \le 20.0\text{cm}$.
+1. **Massa/Peso:** 95.0g <= peso <= 105.0g;
+2. **Cor:** Pertencente ao conjunto restrito de aprovação {"azul", "verde"};
+3. **Comprimento:** 10.0cm <= comprimento <= 20.0cm .
 
 Em vez de utilizar uma única condicional rígida que apenas descarta a peça, adotou-se uma lógica acumuladora de não conformidades. Uma lista `motivos` registra cada desvio identificado, permitindo que a peça seja reprovada com rastreabilidade total (ex.: registrando simultaneamente que o peso está abaixo do limite e a cor está fora do padrão).
 

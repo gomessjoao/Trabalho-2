@@ -1,4 +1,8 @@
 """
+Aluno: João Pedro Gomes da Silva
+Matrícula: 284437
+
+
 Simulador de Linha de Produção Industrial
 Gera entradas aleatórias de peças e simula o funcionamento automatizado do sistema.
 Disciplina: Algoritmos e Lógica de Programação - UniFECAF
