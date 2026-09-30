@@ -165,6 +165,8 @@ Ao cadastrar a 10ª peça aprovada na Caixa #1:
 ```
 ├── main.py                     # Código fonte principal com lógica e interface
 ├── test_sistema.py             # Bateria de testes unitários automatizados
+├── simulador.py                # Simulador automatizado de linha de produção
+├── FLOWCHART.md                # Fluxograma TD completo para visualização nativa na IDE
 ├── README.md                   # Instruções de instalação, uso e exemplos
 ├── PARTE_TEORICA.md            # Documento acadêmico de análise e discussão
 ├── ROTEIRO_PITCH.md            # Roteiro cronometrado para apresentação em vídeo
